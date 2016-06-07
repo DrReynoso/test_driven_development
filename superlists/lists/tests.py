@@ -1,7 +1,10 @@
-from django.test import TestCase
 from django.http import HttpRequest
+from django.test import TestCase
+
+print("Hello ------------------------- here")
 # Create your tests here
-from lists.views import home_page
+from .views import home_page
+
 
 
 class HomePageViewTest(TestCase):
